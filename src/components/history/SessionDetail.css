@@ -1,0 +1,31 @@
+.session-detail {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.messages-list {
+  margin-top: 20px;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 70%;
+}
+
+.message.user {
+  background-color: #e1f5fe; /* Light blue for user messages */
+  align-self: flex-end; /* Align user messages to the right */
+  text-align: right; /* Align text to the right */
+}
+
+.message.ai {
+  background-color: #f1f1f1; /* Light gray for AI messages */
+  align-self: flex-start; /* Align AI messages to the left */
+  text-align: left; /* Align text to the left */
+} 

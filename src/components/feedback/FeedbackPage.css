@@ -1,0 +1,50 @@
+.feedback-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.star-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #cbd5e0;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star-btn.active {
+  color: #ecc94b;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  resize: vertical;
+}
+
+.submit-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #4299e1;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #3182ce;
+} 
